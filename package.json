@@ -1,0 +1,23 @@
+{
+  "name": "firebase-bolt-validation",
+  "version": "0.0.1",
+  "description": "Type validation libraru for firebase modules",
+  "main": "index.bolt",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/brewsoftware/firebase-bolt-validation"
+  },
+  "keywords": [
+    "firebase",
+    "bolt",
+    "validation"
+  ],
+  "author": "Jason Turner (BrewSoftware)",
+  "license": "ISC",
+  "devDependencies": {
+    "validator": "^5.2.0"
+  }
+}
