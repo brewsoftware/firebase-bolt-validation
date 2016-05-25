@@ -24,6 +24,19 @@ Secondly just install this module like any npm package
 and finally make sure you include a reference to the specific module in your file. This only needs to be included once as a global import
 
     $ import {'firebase-bolt-validation'}
+    path /uuid is UUID {
+      read() {true}
+      write() {auth != null}
+    }
+
+which should give the following in your JSON.
+
+     "uuid": {
+      ".validate": "newData.isString() && newData.val().matches(/^[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}$/i)",
+      ".read": "true"
+    }
+
+an example usage for validating 
 
 Enjoy. As always comments and suggestions are welcome. I have pulled what I can from the npm "validator" javascript plugin and will look at pulling in some more use cases soon.
 
