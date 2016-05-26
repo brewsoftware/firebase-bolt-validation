@@ -85,5 +85,5 @@ type Multibyte extends String {
 }
 
 type UUID extends String {
-  validate () { this.test(/^[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}$/i) }
+  validate() { this.test(/^[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}$/i) }
 }
