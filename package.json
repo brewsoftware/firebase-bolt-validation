@@ -1,7 +1,7 @@
 {
   "name": "firebase-bolt-validation",
   "version": "0.0.2",
-  "description": "Type validation libraru for firebase modules",
+  "description": "Type validation library for firebase modules",
   "main": "index.bolt",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
