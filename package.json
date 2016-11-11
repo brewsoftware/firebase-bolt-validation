@@ -1,6 +1,6 @@
 {
   "name": "firebase-bolt-validation",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Type validation library for firebase modules",
   "main": "index.bolt",
   "scripts": {
